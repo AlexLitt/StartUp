@@ -1,0 +1,71 @@
+
+.services__motto {
+  text-align: center;
+  padding-top: 99px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.services__motto::after {
+  content: "";
+  background-image: url(../img/shape-1.png);
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  top: 120%;
+  left: 48%;
+}
+
+.services__desc {
+  color: #555555;
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.services__block-wrapper {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: no-wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.services__block {
+  margin: 0;
+}
+
+.services__image {
+  margin-left: 150px;
+}
+
+.services__headline {
+  color: #555555;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.services__text {
+  color: #555555;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  padding-left: 10px;
+}
+

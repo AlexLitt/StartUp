@@ -1,0 +1,104 @@
+
+.blog__post {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+  margin-top: 35px;
+}
+
+.blog__motto {
+  text-align: center;
+  padding-top: 99px;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  position: relative;
+  margin: 0;
+}
+
+.blog__motto::after {
+  content: "";
+  background-image: url(../img/shape-1.png);
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  top: 120%;
+  left: 48%;
+}
+
+.blog__desc {
+  color: #555555;
+  font-family: "Roboto Slab";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-top: 40px;
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.blog__post-wrapper {
+  margin-left: 39px;
+}
+
+.blog__date {
+  color: #777777;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  border: 2px solid #555555;
+  padding-left: 19px;
+  padding-top: 22px;
+  padding-right: 19px;
+  padding-bottom: 22px;
+  float: left;
+  text-align: center;
+}
+
+.blog__headline {
+  margin: 0;
+  padding-left: 100px;
+  padding-top: 20px;
+  color: #c0301c;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.blog__text {
+  padding-top: 40px;
+  color: #555555;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.blog__author {
+  padding-left: 100px;
+  font-family: "Roboto Slab";
+  font-size: 13px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 24px;
+}
+
+.blog__link {
+  color: #c0301c;
+  font-family: "Roboto Slab";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+}

@@ -1,0 +1,82 @@
+
+@import"header.scss";
+@import"services.scss";
+@import"about-us.scss";
+@import"latest-work.scss";
+@import"blog.scss";
+@import"clients.scss";
+@import"footer.scss";
+
+
+@font-face {
+  font-family: "Monserrat-Regular";
+  src: url("../fonts/Monserrat-Regular.eot"),
+  url("../fonts/Monserrat-Regular") format("woff"),
+  url("../fonts/Monserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  margin: 0 auto;
+  width: 1140px;
+}
+
+.latest-works__list {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+
+.latest-works__item {
+  margin-left: 23px;
+}
+
+.latest-works__link {
+  text-decoration: none;
+}
+
+.latest-works__img-wrapper {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.blog__post {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+

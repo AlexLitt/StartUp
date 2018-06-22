@@ -1,0 +1,75 @@
+.header__wrapper {
+  width: 1140px;
+  margin: 0 auto; }
+
+.header__logo {
+  text-decoration: none;
+  margin-right: 510px;
+  margin-left: 229px;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px; }
+
+.main-nav__list {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  margin-right: 230px;
+  padding-top: 45px; }
+
+.header__item {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.35px; }
+
+.header {
+  margin: 0 auto;
+  width: 1600px;
+  height: 770px;
+  margin-top: -10px;
+  background-image: url(../img/home-background.png);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.header__motto {
+  padding-left: 508px;
+  padding-right: 511px;
+  padding-top: 223px; }
+
+.header__welcome {
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 24px; }
+
+.header__favorite {
+  color: #ffffff;
+  font-family: "Roboto Slab";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  padding-bottom: 50px; }
+
+.header__link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-right: 24px;
+  padding-bottom: 10px;
+  border-radius: 2px;
+  margin-left: 170px;
+  border: 2px solid #ffffff;
+  text-decoration: none;
+  color: #ffffff; }
